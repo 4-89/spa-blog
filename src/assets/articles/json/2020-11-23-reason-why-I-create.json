@@ -1,0 +1,19 @@
+{
+  "title": "This is first article",
+  "code": "2020-11-23-reason-why-I-create",
+  "date": "2020-11-23",
+  "categories": [
+    "xxxj"
+  ],
+  "tags": [
+    "xxx"
+  ],
+  "bodyContent": "# Why Did I created this blog?\nBecause I wanted to learn and use these below...\n- vue.js, node.js\n- aws(S3, CloudFront)\n- github actions\nIn addition, I want a place where I can write anything I want.",
+  "bodyHtml": "<h1>Why Did I created this blog?</h1>\n<p>Because I wanted to learn and use these below...</p>\n<ul>\n<li>vue.js, node.js</li>\n<li>aws(S3, CloudFront)</li>\n<li>github actions\nIn addition, I want a place where I can write anything I want.</li>\n</ul>\n",
+  "preview": "Why Did I created this blog?\nBecause I wanted to learn and use these below...\nvue.js, node.js\naws(S3, CloudFront)\ngithub actions\nIn addition, I want a place where I can write anything I want.",
+  "dir": "src/assets/articles/json",
+  "base": "2020-11-23-reason-why-I-create.json",
+  "ext": ".json",
+  "sourceBase": "2020-11-23-reason-why-I-create.md",
+  "sourceExt": ".md"
+}
