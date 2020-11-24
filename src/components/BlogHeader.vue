@@ -29,12 +29,12 @@
 <style>
 .l-blog-header {
   box-sizing: border-box;
-  padding: 7em;
+  padding: 7rem;
   display: flex;
 }
 .l-blog-header__under-space {
   box-sizing: border-box;
-  padding: 0.1em 0.5em;
+  padding: 0.1em 0.5rem;
   display: flex;
   justify-content: flex-end;
 }
@@ -46,18 +46,18 @@
 .l-blog-header__spacer {
   box-sizing: border-box;
   flex-basis: 30%;
-  padding-left: 2em;
+  padding-left: 2rem;
 }
 .l-blog-header__title {
   box-sizing: border-box;
   flex-basis: 50%;
-  padding-left: 2em;
+  padding-left: 2rem;
   cursor: pointer;
 }
 .l-blog-header__link {
   box-sizing: border-box;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 1rem;
+  padding-right: 1rem;
   cursor: pointer;
 }
 .l-blog-header__link--decorated {
