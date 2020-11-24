@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: "./",
+  publicPath: "/dist",
   pages: {
     index: {
       entry: "src/main.js",
