@@ -58,13 +58,13 @@ body {
   opacity: 0;
 }
 .u-mbl {
-  margin-bottom: 2.5em;
+  margin-bottom: 2.5rem;
 }
 .u-mbm {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.5rem;
 }
 .u-mbs {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.5rem;
 }
 @media screen and (max-width: 500px) {
   /* 960px以上に適用されるCSS（PC用） */

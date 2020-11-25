@@ -24,10 +24,13 @@ export default {
   },
   methods: {
     compileMdText() {
-      import("../assets/articles/json/" + this.code + ".json")
-        .then(module => {
-          console.log(module);
-          this.articleMd = module.bodyHtml;
+      fetch("articles/" + this.code + ".json")
+        .then(response => {
+          if (!response.ok) {
+            throw new Error("Network response was not ok");
+          }
+          console.log(response);
+          this.articleMd = response.json().bodyHtml;
         })
         .catch(err => {
           this.articleMd = "<div>article was not found.</div>";
