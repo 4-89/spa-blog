@@ -32,7 +32,7 @@ export default {
           return response.json();
         })
         .then(json => {
-          this.articleMd = json().bodyHtml;
+          this.articleMd = json.bodyHtml;
         })
         .catch(err => {
           this.articleMd = "<div>article was not found.</div>";
