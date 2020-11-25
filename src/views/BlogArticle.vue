@@ -29,8 +29,10 @@ export default {
           if (!response.ok) {
             throw new Error("Network response was not ok");
           }
-          console.log(response);
-          this.articleMd = response.json().bodyHtml;
+          return response.json();
+        })
+        .then(json => {
+          this.articleMd = json().bodyHtml;
         })
         .catch(err => {
           this.articleMd = "<div>article was not found.</div>";
