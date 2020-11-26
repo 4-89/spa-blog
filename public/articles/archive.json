@@ -1,6 +1,6 @@
 {
   "fileMap": {
-    "dist/articles/2020-11-23-reason-why-I-create.json": {
+    "public/articles/json/2020-11-23-reason-why-I-create.json": {
       "title": "This is first article",
       "code": "2020-11-23-reason-why-I-create",
       "date": "2020-11-23",
@@ -11,13 +11,13 @@
         "xxx"
       ],
       "preview": "Why Did I created this blog?\nBecause I wanted to learn and use these below...\nvue.js, node.js\naws(S3, CloudFront)\ngithub actions\nIn addition, I want a place where I can write anything I want.",
-      "dir": "dist/articles",
+      "dir": "public/articles/json",
       "base": "2020-11-23-reason-why-I-create.json",
       "ext": ".json",
       "sourceBase": "2020-11-23-reason-why-I-create.md",
       "sourceExt": ".md"
     },
-    "dist/articles/2020-11-24-second.json": {
+    "public/articles/json/2020-11-24-second.json": {
       "title": "This is second article",
       "code": "2020-11-24-second",
       "date": "2020-11-24",
@@ -28,13 +28,13 @@
         "xxx"
       ],
       "preview": "This is second article\nSometimes life hits you in the head with a brick. Don’t lose faith. I’m convinced that the only thing that kept me going was that I loved what I did. You’ve got to find what you",
-      "dir": "dist/articles",
+      "dir": "public/articles/json",
       "base": "2020-11-24-second.json",
       "ext": ".json",
       "sourceBase": "2020-11-24-second.md",
       "sourceExt": ".md"
     },
-    "dist/articles/2020-11-25-third.json": {
+    "public/articles/json/2020-11-25-third.json": {
       "title": "This is third article",
       "code": "2020-11-25-third",
       "date": "2020-11-25",
@@ -45,7 +45,7 @@
         "xxx"
       ],
       "preview": "This is third article\nYour time is limited, so don’t waste it living someone else’s life. Don’t be trapped by dogma — which is living with the results of other people’s thinking. Don’t let the noise",
-      "dir": "dist/articles",
+      "dir": "public/articles/json",
       "base": "2020-11-25-third.json",
       "ext": ".json",
       "sourceBase": "2020-11-25-third.md",
@@ -53,8 +53,8 @@
     }
   },
   "sourceFileArray": [
-    "./src/assets/articles/md/2020-11-23-reason-why-I-create.md",
-    "./src/assets/articles/md/2020-11-24-second.md",
-    "./src/assets/articles/md/2020-11-25-third.md"
+    "./public/articles/md/2020-11-23-reason-why-I-create.md",
+    "./public/articles/md/2020-11-24-second.md",
+    "./public/articles/md/2020-11-25-third.md"
   ]
 }

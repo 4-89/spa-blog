@@ -1,6 +1,6 @@
 import Vue from "vue";
 import Vuex from "vuex";
-import archive from "../assets/articles/archive.json";
+import archive from "../../public/articles/archive.json";
 import message from "../assets/message.json";
 
 Vue.use(Vuex);
