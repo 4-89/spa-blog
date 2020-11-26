@@ -53,8 +53,8 @@
     }
   },
   "sourceFileArray": [
-    "./public/articles/md/2020-11-23-reason-why-I-create.md",
-    "./public/articles/md/2020-11-24-second.md",
-    "./public/articles/md/2020-11-25-third.md"
+    "./md/2020-11-23-reason-why-I-create.md",
+    "./md/2020-11-24-second.md",
+    "./md/2020-11-25-third.md"
   ]
 }

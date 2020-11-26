@@ -1,1 +1,1 @@
-processmd "./public/articles/md/*" --stdout --preview 200 --outputDir "./public/articles/json" > "./public/articles/archive.json"
+processmd "./md/*" --stdout --preview 200 --outputDir "./public/articles/json" > "./public/articles/archive.json"
