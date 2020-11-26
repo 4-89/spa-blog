@@ -24,7 +24,7 @@ export default {
   },
   methods: {
     compileMdText() {
-      fetch("articles/json/" + this.code + ".json")
+      fetch("../articles/json/" + this.code + ".json")
         .then(response => {
           if (!response.ok) {
             throw new Error("Network response was not ok");
