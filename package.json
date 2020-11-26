@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "npm run build:vue-cli & npm run build:archive",
+    "build": "npm run build:archive & npm run build:vue-cli",
     "lint": "vue-cli-service lint",
     "build:archive": "sh ./buildArchive.sh",
     "build:vue-cli": "vue-cli-service build"
