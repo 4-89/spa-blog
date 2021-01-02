@@ -8,12 +8,19 @@
     <div class="l-blog-header__under-space l-blog-header__under-space--with-bg">
       <router-link
         tag="span"
+        to="/"
+        class="l-blog-header__link l-blog-header__link--decorated"
+      >
+        home
+      </router-link>
+      <router-link
+        tag="span"
         to="/archive"
         class="l-blog-header__link l-blog-header__link--decorated"
       >
         archive
       </router-link>
-      <span class="l-blog-header__link l-blog-header__link--decorated">
+      <!-- <span class="l-blog-header__link l-blog-header__link--decorated">
         <a href="#">git</a>
       </span>
       <span class="l-blog-header__link l-blog-header__link--decorated">
@@ -21,7 +28,7 @@
       </span>
       <span class="l-blog-header__link l-blog-header__link--decorated">
         <a href="#">qiita</a>
-      </span>
+      </span> -->
     </div>
   </div>
 </template>

@@ -4,7 +4,7 @@ module.exports = {
   pages: {
     index: {
       entry: "src/main.js",
-      title: "n"
+      title: "4-89"
     }
   },
   configureWebpack: {
