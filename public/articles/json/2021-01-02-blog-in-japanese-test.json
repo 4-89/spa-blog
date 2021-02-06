@@ -1,0 +1,19 @@
+{
+  "title": "This is Japanese article",
+  "code": "2021-01-02-blog-in-japanese-test",
+  "date": "2021-01-02",
+  "categories": [
+    "xxx"
+  ],
+  "tags": [
+    "xxx"
+  ],
+  "bodyContent": "# 日本語の記事\n日本語のテスト記事。\n\n## ブログ作成の動機\n- 業務でも利用されているVueを利用したかった\n- AWSを利用したかった\n\n## 今後の実装予定\n- home画面の実装\n- モバイル対応",
+  "bodyHtml": "<h1>日本語の記事</h1>\n<p>日本語のテスト記事。</p>\n<h2>ブログ作成の動機</h2>\n<ul>\n<li>業務でも利用されているVueを利用したかった</li>\n<li>AWSを利用したかった</li>\n</ul>\n<h2>今後の実装予定</h2>\n<ul>\n<li>home画面の実装</li>\n<li>モバイル対応</li>\n</ul>\n",
+  "preview": "日本語の記事\n日本語のテスト記事。\n\nブログ作成の動機\n業務でも利用されているVueを利用したかった\nAWSを利用したかった\n\n今後の実装予定\nhome画面の実装\nモバイル対応",
+  "dir": "public/articles/json",
+  "base": "2021-01-02-blog-in-japanese-test.json",
+  "ext": ".json",
+  "sourceBase": "2021-01-02-blog-in-japanese-test.md",
+  "sourceExt": ".md"
+}
